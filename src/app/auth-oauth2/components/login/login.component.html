@@ -1,0 +1,16 @@
+<h1>Login</h1>
+
+<label>Usuário</label>
+<input [(ngModel)]="user.username" 
+        name="username" 
+        id="username" 
+        type="text">
+  
+<label>Senha</label>
+<input [(ngModel)]="user.password" 
+        name="password" 
+        id="password" 
+        type="password">
+
+<button type="submit" (click)="login()">Login</button>
+
